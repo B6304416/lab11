@@ -1,0 +1,1 @@
+https://github.com/B6304416/AnimeBucketList
