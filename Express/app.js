@@ -24,9 +24,9 @@ const userSchema = Schema({
 let Product;
 try {
     // Product = mongoose.model('products');
-    Product = mongoose.model('products', userSchema);
+    Product = mongoose.model('products');
 } catch (error) {
-    console.log(error);
+    Product = mongoose.model('products', userSchema);
 }
 
 expressApp.use((req, res, next) => {
